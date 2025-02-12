@@ -100,7 +100,7 @@ export function Navigator() {
           target="_blank"
           className="bg-[#3de85a] text-white flex items-center gap-2 px-3 py-2 rounded-md md:hidden absolute right-6"
         >
-          Nos contate via WhatsApp
+          WhatsApp
           <WhatsappLogo className="w-5 h-5 text-white" />
         </a>
 
