@@ -89,13 +89,13 @@ export function Feedbacks() {
                 <div key={index} className="flex-[0_0_100%] min-w-0 px-3">
                   <article className="bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
                     <div className="flex flex-col items-center text-center space-y-4">
-                      <div className="relative md:w-20 h-20">
+                      <div className="relative w-20 h-20">
                         <Image
                           src={item.image}
                           alt={item.author}
                           fill
                           sizes="96px"
-                          className="object-cover rounded-full"
+                          className="object-cover w-20 h-20 rounded-full"
                         />
                       </div>
                       <p className="text-gray-200">{item.content}</p>
