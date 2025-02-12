@@ -23,7 +23,7 @@ const feedbacks = [
     tech1: "Médico Veterinário graduado pela UFU em 1992",
     tech2: "Radiologista, Patologista clínico",
     tech3: "Endoscopista",
-    tech4: "Pós em Gastroenterologia de pequenos animais",
+    tech4: "Pós graduação em Gastroenterologia de pequenos animais",
     image: Nixon,
   },
   {
