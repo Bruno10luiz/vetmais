@@ -11,8 +11,6 @@ import Image from "next/image";
 
 const feedbacks = [
   {
-    content:
-      "Desde que comecei a levar a Luna para banho e tosa aqui, ela nunca esteve tão feliz! O atendimento é impecável, os profissionais são super cuidadosos e sempre deixam minha peluda linda e cheirosa. Recomendo de olhos fechados!",
     vet: "Dra. Sthefany Lara",
     tech1: "Médica Veterinária graduado na UFU em 2020",
     tech2: "Clínica e cirurgia geral ",
@@ -21,19 +19,14 @@ const feedbacks = [
     image: Sthefany,
   },
   {
-    content:
-      "O serviço de hotel para pets foi uma experiência incrível! Precisei viajar e fiquei tranquilo sabendo que o Thor estava sendo bem cuidado. Recebi fotos e atualizações diárias, e ele voltou para casa super feliz! Sem dúvida, o melhor petshop da região.",
     vet: "Dr. Nixon Faria",
     tech1: "Médico Veterinário graduado pela UFU em 1992",
-    tech2: "Radiologista, patologista clínico",
-    tech3: "Endocopista",
-    tech4:
-      "Pós graduado em Gastroenterologia Veterinária de pequenos animais pela Universidade Castelo Branco em 2016",
+    tech2: "Radiologista, Patologista clínico",
+    tech3: "Endoscopista",
+    tech4: "Pós em Gastroenterologia de pequenos animais",
     image: Nixon,
   },
   {
-    content:
-      "Meus gatos nunca gostaram de sair de casa, mas o atendimento nesse petshop fez toda a diferença. A equipe é muito paciente e cuidadosa, e o serviço de banho especializado para felinos foi maravilhoso! Agora sei onde confiar o cuidado deles.",
     vet: "Dra. Luciana Benedetti",
     tech1: "Médica Veterinária graduada pela UFU em 2000",
     tech2: "Especialista em ultrassonografia abdominal ",
@@ -42,8 +35,6 @@ const feedbacks = [
     image: Luciana,
   },
   {
-    content:
-      "Meus gatos nunca gostaram de sair de casa, mas o atendimento nesse petshop fez toda a diferença. A equipe é muito paciente e cuidadosa, e o serviço de banho especializado para felinos foi maravilhoso! Agora sei onde confiar o cuidado deles.",
     vet: "Dra. Aline Vieira",
     tech1: "Médica Veterinária graduado na UFU em 2020",
     tech2: "Mestre em Ciências Veterinárias - UFU",

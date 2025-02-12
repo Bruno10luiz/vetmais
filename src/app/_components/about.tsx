@@ -42,7 +42,7 @@ export function About() {
               Na Vet+, nosso compromisso é com a saúde e o bem-estar do seu pet.
               Contamos com uma equipe de médicos veterinários qualificados e uma
               estrutura moderna para oferecer assistência de qualidade, desde
-              consultas de rotina até emergências 24h. Nosso objetivo é
+              consultas de rotina até internações 24h. Nosso objetivo é
               proporcionar um atendimento humanizado e eficiente, garantindo o
               melhor cuidado para o seu companheiro.
             </p>

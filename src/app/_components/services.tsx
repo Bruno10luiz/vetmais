@@ -57,7 +57,7 @@ const services = [
   {
     title: "Exames de Imagem e Laboratoriais",
     description:
-      "Disponibilizamos exames de imagem e laboratoriais para um diagnóstico rápido e preciso. Com equipamentos modernos e uma equipe especializada,na Vet+ oferecemos serviços de ultrassonografia, Ecocardiograma, eletrocardiograma, radiografia, endoscopia e colonoscopia. Garantimos o melhor cuidado para a saúde do seu pet.",
+      "Disponibilizamos exames de imagem e laboratoriais para um diagnóstico rápido e preciso. Com equipamentos modernos e uma equipe especializada. Na Vet+ oferecemos serviços de ultrassonografia, ecocardiograma, eletrocardiograma, radiografia, endoscopia e colonoscopia. Garantimos o melhor cuidado para a saúde do seu pet.",
     icon: <Microscope />,
     linkText:
       "Olá, vi no site sobre Hotel para pets e gostaria de mais informações.",
