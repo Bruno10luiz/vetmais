@@ -1,40 +1,52 @@
 "use client";
 
 import useEmblaCarousel from "embla-carousel-react";
-import {
-  ChevronLeft,
-  ChevronRight,
-  Scissors,
-  Syringe,
-  CarTaxiFront,
-  Hotel,
-  Clock,
-} from "lucide-react";
-import { WhatsappLogo } from "@phosphor-icons/react";
-import tutor1 from "../../../public/tutor1.png";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import tutor1 from "../../../public/feed1.png";
+import tutor2 from "../../../public/feed2.png";
+import tutor3 from "../../../public/feed3.jpg";
+import tutor4 from "../../../public/feed4.jpg";
+import tutor5 from "../../../public/feed5.jpg";
+import tutor6 from "../../../public/feed6.jpg";
 import Image from "next/image";
+import { useEffect } from "react";
 
 const feedbacks = [
   {
     content:
-      "Desde que comecei a levar a Luna para banho e tosa aqui, ela nunca esteve tão feliz! O atendimento é impecável, os profissionais são super cuidadosos e sempre deixam minha peluda linda e cheirosa. Recomendo de olhos fechados!",
-    author: "Mariana Souza",
-    role: "Tutora da Luna (Golden Retriever)",
+      "Lugar excelente e com profissionais extremamente capacitados e com amor no que fazem. Levei minha cadela e foi muito bem cuidada. Recomendo!",
+    author: "Vladimir Queiroz",
     image: tutor1,
   },
   {
     content:
-      "O serviço de hotel para pets foi uma experiência incrível! Precisei viajar e fiquei tranquilo sabendo que o Thor estava sendo bem cuidado. Recebi fotos e atualizações diárias, e ele voltou para casa super feliz! Sem dúvida, o melhor petshop da região.",
-    author: "Rafael",
-    role: "Tutor do Thor (Bulldog Francês)",
-    image: tutor1,
+      "Clínica completa, ótima estrutura, com profissionais capacitados, atenciosos e prontos para atender os pets!",
+    author: "Matheus",
+    image: tutor3,
   },
   {
     content:
-      "Meus gatos nunca gostaram de sair de casa, mas o atendimento nesse petshop fez toda a diferença. A equipe é muito paciente e cuidadosa, e o serviço de banho especializado para felinos foi maravilhoso! Agora sei onde confiar o cuidado deles.",
-    author: "Camila fernandes",
-    role: "Tutora da Mel e do Max",
-    image: tutor1,
+      "Simplesmente a melhor clinica de Uberlândia e região! Profissionais bem competentes e atenciosos!",
+    author: "Nair Correa",
+    image: tutor4,
+  },
+  {
+    content:
+      "A clínica é muito completa, conta com profissionais excelentes e o atendimento é ótimo!",
+    author: "Marília Silva",
+    image: tutor2,
+  },
+  {
+    content:
+      "Trabalho excelente, com profissionais capacitados. Que entregam o seu melhor para cuidar do nosso doguinho.",
+    author: "Fernando",
+    image: tutor5,
+  },
+  {
+    content:
+      "Amo esse lugar! Profissionais de confiança e muito competentes, fazem tudo com muito amor e carinho. Indico de olhos fechados ❤️",
+    author: "Zila Pacheco",
+    image: tutor6,
   },
 ];
 
@@ -51,21 +63,33 @@ export function Feedbacks() {
     emblaApi?.scrollNext();
   }
 
+  useEffect(() => {
+    if (!emblaApi) return;
+
+    const interval = setInterval(() => {
+      emblaApi.scrollNext();
+    }, 5500);
+
+    return () => clearInterval(interval); // Limpa o intervalo ao desmontar
+  }, [emblaApi]);
   return (
     <section className="bg-[#FDF6EC] py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12">
+        <h2
+          className="text-4xl font-bold text-center mb-12 "
+          data-aos="fade-up"
+        >
           Depoimentos dos nossos clientes
         </h2>
 
-        <div className="relative max-w-4xl mx-auto">
+        <div className="relative max-w-4xl mx-auto" data-aos="fade-up">
           <div className="overflow-hidden" ref={emblaRef}>
             <div className="flex">
               {feedbacks.map((item, index) => (
                 <div key={index} className="flex-[0_0_100%] min-w-0 px-3">
                   <article className="bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
                     <div className="flex flex-col items-center text-center space-y-4">
-                      <div className="relative w-24 h-24">
+                      <div className="relative md:w-20 h-20">
                         <Image
                           src={item.image}
                           alt={item.author}
@@ -77,7 +101,6 @@ export function Feedbacks() {
                       <p className="text-gray-200">{item.content}</p>
                       <div>
                         <p className="fonte-bold">{item.author}</p>
-                        <p className="text-sm text-gray-400">{item.role}</p>
                       </div>
                     </div>
                   </article>

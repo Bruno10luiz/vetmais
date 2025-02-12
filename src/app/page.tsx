@@ -5,10 +5,12 @@ import { Feedbacks } from "./_components/feedbacks";
 import { Footer } from "./_components/footer";
 import { Team } from "./_components/team";
 import { Address } from "./_components/address";
+import { Navigator } from "./_components/navigator";
 
 export default function Home() {
   return (
     <main>
+      <Navigator />
       <Hero />
       <About />
       <Team />

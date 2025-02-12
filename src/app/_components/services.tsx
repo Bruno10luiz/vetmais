@@ -5,50 +5,69 @@ import {
   ChevronLeft,
   ChevronRight,
   Scissors,
+  Cat,
   Syringe,
-  CarTaxiFront,
-  Hotel,
-  Clock,
+  Ambulance,
+  Hospital,
+  Pill,
+  Microscope,
 } from "lucide-react";
 import { WhatsappLogo } from "@phosphor-icons/react";
 
 const services = [
   {
-    title: "Banho & Tosa",
-    description:
-      "Inclui banho com produtos específicos para o tipo de pelagem e pele do animal, corte de unhas, limpeza das orelhas e tosa personalizada (higiênica ou estilizada).",
-    duration: "1h",
-    price: "$50",
-    icon: <Scissors />,
-    linkText:
-      "Olá, vi no site sobre Banho e tosa e gostaria de mais informações.",
-  },
-  {
     title: "Consulta Veterinária",
     description:
-      "Oferece atendimento clínico básico ou especializado para cuidar da saúde do animal. Inclui diagnóstico de doenças, aplicação de vacinas obrigatórias.",
+      "Cuidamos da saúde do seu pet com atenção e carinho! Nossos veterinários especializados realizam consultas completas, orientando sobre prevenção, diagnóstico e tratamento para garantir o bem-estar do seu animal. Agende uma consulta e proporcione mais qualidade de vida ao seu companheiro!",
     duration: "1h",
-    price: "$45",
-    icon: <Syringe />,
+    icon: <Cat />,
     linkText:
       "Olá, vi no site sobre Consulta veterinária e gostaria de mais informações.",
   },
   {
-    title: "Táxi Pet",
+    title: "Cirugia",
     description:
-      "Serviço de transporte para levar e buscar os pets no petshop, clínicas veterinárias ou outros locais. Ideal para tutores que não têm tempo ou transporte adequado para locomover os animais.",
+      "Realizamos procedimentos cirúrgicos com segurança e tecnologia avançada. Nossa equipe especializada garante todo o cuidado necessário antes, durante e após a cirurgia, proporcionando o melhor para a saúde e recuperação do seu pet.",
+    duration: "1h",
+    icon: <Scissors />,
+    linkText:
+      "Olá, vi no site sobre Consulta veterinária e gostaria de mais informações.",
+  },
+  {
+    title: "Emergência",
+    description:
+      "Estamos prontos para atender seu pet em qualquer situação de urgência! Nossa equipe especializada oferece atendimento rápido e cuidadoso, garantindo o melhor suporte para a saúde e bem-estar do seu animal. Em caso de emergência, entre em contato imediatamente!",
+    duration: "1h",
+
+    icon: <Ambulance />,
+    linkText:
+      "Olá, vi no site sobre Banho e tosa e gostaria de mais informações.",
+  },
+  {
+    title: "Internação 24 Horas",
+    description:
+      "Oferecemos internação 24 horas para garantir o cuidado e a recuperação do seu pet em um ambiente seguro e confortável. Nosso espaço possui internação humanizada, com aromaterapia, cromoterapia e musicoterapia, afim de deixar seu pet o mais confortável possível.",
+    duration: "1h",
+    icon: <Hospital />,
+    linkText:
+      "Olá, vi no site sobre Consulta veterinária e gostaria de mais informações.",
+  },
+  {
+    title: "Vacinação e Farmácia",
+    description:
+      "Conte com nossa farmácia veterinária para encontrar os medicamentos e produtos essenciais para a saúde do seu pet. Além disso, realizamos a vacinação com segurança e qualidade, protegendo seu animal contra diversas doenças. Cuide de quem sempre está ao seu lado!",
     duration: "2h",
     price: "$80",
-    icon: <CarTaxiFront />,
+    icon: <Syringe />,
     linkText: "Olá, vi no site sobre Táxi Pet e gostaria de mais informações.",
   },
   {
-    title: "Hotel para pets",
+    title: "Exames de Imagem e Laboratoriais",
     description:
-      "Serviço de hospedagem para animais de estimação, ideal para quando os tutores precisam viajar ou se ausentar por alguns dias. Os pets ficam acomodados em espaços seguros, confortáveis.",
+      "Disponibilizamos exames de imagem e laboratoriais para um diagnóstico rápido e preciso. Com equipamentos modernos e uma equipe especializada,na Vet+ oferecemos serviços de ultrassonografia, Ecocardiograma, eletrocardiograma, radiografia, endoscopia e colonoscopia. garantimos o melhor cuidado para a saúde do seu pet.",
     duration: "1h",
     price: "$60",
-    icon: <Hotel />,
+    icon: <Microscope />,
     linkText:
       "Olá, vi no site sobre Hotel para pets e gostaria de mais informações.",
   },
@@ -73,17 +92,19 @@ export function Services() {
   }
 
   return (
-    <section className="bg-[#90d698] py-16">
+    <section id="services" className="bg-[#90d698] py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-12">Nossa Equipe</h2>
+        <h2 className="text-4xl font-bold mb-12" data-aos="fade-down">
+          Nossos Serviços
+        </h2>
 
         <div className="relative">
           <div className="overflow-hidden" ref={emblaRef}>
-            <div className="flex">
+            <div className="flex" data-aos="fade-up">
               {services.map((item, index) => (
                 <div
                   key={index}
-                  className="flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)] px-3"
+                  className="flex-[0_0_100%] min-w-0 lg:flex-[0_0_calc(100%/3)] px-3"
                 >
                   <article className="bg-[#224d24] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
                     <div className="flex-1 flex items-start justify-between">
@@ -101,14 +122,9 @@ export function Services() {
                     </div>
 
                     <div className="border-t border-gray-700 pt-4 flex items-center justify-between">
-                      <div className="flex items-center gap-2 text-sm">
-                        <Clock className="w-4 h-4" />
-                        <span>{item.duration}</span>
-                      </div>
-
                       <a
                         target="_blank"
-                        href={`https://wa.me/5534996472326?text=Olá, vim pelo site e gostaria de mais informações sobre ${item.title}`}
+                        href={`https://wa.me/5534996472326?text=Olá, vim pelo site e gostaria de mais informações sobre ${item.title}.`}
                         className="flex items-center justify-center gap-2 hover:bg-green-500 px-4 py-1 rounded-md duration-300"
                       >
                         <WhatsappLogo className="w-5 h-5" />

@@ -1,63 +1,35 @@
-import golden from "../../../public/golden.png";
-import royal from "../../../public/royal.png";
-import primier from "../../../public/primier.png";
-import whiskas from "../../../public/whiskas.png";
-import natural from "../../../public/natural.png";
+import vetMaisLogo from "../../../public/Logo VET+branco.png";
 import Image from "next/image";
 import {
   FacebookLogo,
   InstagramLogo,
+  WhatsappLogo,
   YoutubeLogo,
 } from "@phosphor-icons/react/dist/ssr";
 
-const brands = [
-  { name: "Royal Canin", logo: royal },
-  { name: "Golden", logo: golden },
-  { name: "Primier", logo: primier },
-  { name: "Formula Natural", logo: natural },
-  { name: "Whiskas", logo: whiskas },
-  { name: "Golden", logo: golden },
-];
-
 export function Footer() {
   return (
-    <section className="bg-[#33833a] py-16 text-white">
+    <section className="bg-[#33833a] py-8 text-white">
       <div className="container mx-auto px-4">
-        <div className="border-b border-white/20 pb-8">
-          <h4 className="text-3xl font-semibold mb-8 text-center">
-            Marcas que trabalhamos
-          </h4>
-
-          <div className="grid grid-cols-2 lg:grid-cols-6 gap-8">
-            {brands.map((item, index) => (
-              <div
-                key={index}
-                className="bg-white p-4 rounded-lg flex items-center justify-center"
-              >
-                <Image
-                  src={item.logo}
-                  alt={item.name}
-                  width={100}
-                  height={50}
-                  quality={100}
-                  style={{
-                    width: "auto",
-                    height: "auto",
-                  }}
-                  className="object-contain"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
+        <div className="border-b border-white/20 pb-8"></div>
 
         <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5">
           <div>
-            <h3 className="text-2xl font-semibold mb-2">Pet Shop Dev</h3>
+            <a href="/">
+              <Image
+                src={vetMaisLogo}
+                alt="Logo Vet Mais"
+                className="h-28 w-28"
+              />
+            </a>
             <p className="mb-4">
               Cuidando do seu melhor amigo com amor e dedicação.
             </p>
-            <a href="#" className="bg-green-500 px-4 py-2 rounded-md">
+            <a
+              href="https://wa.me/5534996472326?text=Olá, vim pelo site e gostaria de mais informações."
+              target="_blank"
+              className="bg-green-500 px-4 py-2 rounded-md"
+            >
               Contato via WhatsApp
             </a>
           </div>
@@ -65,21 +37,21 @@ export function Footer() {
           <div>
             <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
             <p>Email: vetmais@teste.com</p>
-            <p>Telefone: (34) 34996472326</p>
-            <p>Rua X, Jardim Karaíba, Uberlândia | MG</p>
+            <p>Telefone: (34) 9 9647-2326</p>
+            <p>Rua Rafael Marino Neto, Jardim Karaíba, Uberlândia | MG</p>
           </div>
 
           <div>
             <h3 className="text-2xl font-semibold mb-2">Redes sociais</h3>
             <div className="flex gap-4">
-              <a href="#" target="_blank">
-                <FacebookLogo className="w-8 h-8" />
-              </a>
-              <a href="#" target="_blank">
+              <a href="https://www.instagram.com/vetmaisudi/" target="_blank">
                 <InstagramLogo className="w-8 h-8" />
               </a>
-              <a href="#" target="_blank">
-                <YoutubeLogo className="w-8 h-8" />
+              <a
+                href="https://wa.me/5534996472326?text=Olá, vim pelo site e gostaria de mais informações."
+                target="_blank"
+              >
+                <WhatsappLogo className="w-8 h-8" />
               </a>
             </div>
           </div>
