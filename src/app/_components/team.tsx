@@ -45,7 +45,7 @@ const feedbacks = [
     content:
       "Meus gatos nunca gostaram de sair de casa, mas o atendimento nesse petshop fez toda a diferença. A equipe é muito paciente e cuidadosa, e o serviço de banho especializado para felinos foi maravilhoso! Agora sei onde confiar o cuidado deles.",
     vet: "Dra. Aline Vieira",
-    tech1: "Médica Veterinária - UFU",
+    tech1: "Médica Veterinária graduado na UFU em 2020",
     tech2: "Mestre em Ciências Veterinárias - UFU",
     tech3: "Especialista em Oftalmologia Clínica Veterinária",
     tech4: "Clínica Veterinária",

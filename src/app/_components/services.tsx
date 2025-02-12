@@ -19,16 +19,14 @@ const services = [
     title: "Consulta Veterinária",
     description:
       "Cuidamos da saúde do seu pet com atenção e carinho! Nossos veterinários especializados realizam consultas completas, orientando sobre prevenção, diagnóstico e tratamento para garantir o bem-estar do seu animal. Agende uma consulta e proporcione mais qualidade de vida ao seu companheiro!",
-    duration: "1h",
     icon: <Cat />,
     linkText:
       "Olá, vi no site sobre Consulta veterinária e gostaria de mais informações.",
   },
   {
-    title: "Cirugia",
+    title: "Cirurgia",
     description:
       "Realizamos procedimentos cirúrgicos com segurança e tecnologia avançada. Nossa equipe especializada garante todo o cuidado necessário antes, durante e após a cirurgia, proporcionando o melhor para a saúde e recuperação do seu pet.",
-    duration: "1h",
     icon: <Scissors />,
     linkText:
       "Olá, vi no site sobre Consulta veterinária e gostaria de mais informações.",
@@ -37,8 +35,6 @@ const services = [
     title: "Emergência",
     description:
       "Estamos prontos para atender seu pet em qualquer situação de urgência! Nossa equipe especializada oferece atendimento rápido e cuidadoso, garantindo o melhor suporte para a saúde e bem-estar do seu animal. Em caso de emergência, entre em contato imediatamente!",
-    duration: "1h",
-
     icon: <Ambulance />,
     linkText:
       "Olá, vi no site sobre Banho e tosa e gostaria de mais informações.",
@@ -47,7 +43,6 @@ const services = [
     title: "Internação 24 Horas",
     description:
       "Oferecemos internação 24 horas para garantir o cuidado e a recuperação do seu pet em um ambiente seguro e confortável. Nosso espaço possui internação humanizada, com aromaterapia, cromoterapia e musicoterapia, afim de deixar seu pet o mais confortável possível.",
-    duration: "1h",
     icon: <Hospital />,
     linkText:
       "Olá, vi no site sobre Consulta veterinária e gostaria de mais informações.",
@@ -56,17 +51,13 @@ const services = [
     title: "Vacinação e Farmácia",
     description:
       "Conte com nossa farmácia veterinária para encontrar os medicamentos e produtos essenciais para a saúde do seu pet. Além disso, realizamos a vacinação com segurança e qualidade, protegendo seu animal contra diversas doenças. Cuide de quem sempre está ao seu lado!",
-    duration: "2h",
-    price: "$80",
     icon: <Syringe />,
     linkText: "Olá, vi no site sobre Táxi Pet e gostaria de mais informações.",
   },
   {
     title: "Exames de Imagem e Laboratoriais",
     description:
-      "Disponibilizamos exames de imagem e laboratoriais para um diagnóstico rápido e preciso. Com equipamentos modernos e uma equipe especializada,na Vet+ oferecemos serviços de ultrassonografia, Ecocardiograma, eletrocardiograma, radiografia, endoscopia e colonoscopia. garantimos o melhor cuidado para a saúde do seu pet.",
-    duration: "1h",
-    price: "$60",
+      "Disponibilizamos exames de imagem e laboratoriais para um diagnóstico rápido e preciso. Com equipamentos modernos e uma equipe especializada,na Vet+ oferecemos serviços de ultrassonografia, Ecocardiograma, eletrocardiograma, radiografia, endoscopia e colonoscopia. Garantimos o melhor cuidado para a saúde do seu pet.",
     icon: <Microscope />,
     linkText:
       "Olá, vi no site sobre Hotel para pets e gostaria de mais informações.",

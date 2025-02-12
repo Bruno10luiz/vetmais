@@ -25,6 +25,12 @@ export function Hero() {
               className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10"
               data-aos="fade-down"
             >
+              {"Bem-vindo(a) à Vet + "}
+            </h1>
+            <h1
+              className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10"
+              data-aos="fade-down"
+            >
               Para nós não é apenas um paciente, é o Amor de alguém.
             </h1>
 
@@ -32,7 +38,7 @@ export function Hero() {
               A Vet+ oferece os melhores serviços para garantir o bem-estar e a
               saúde do seu amigo de quatro patas!
             </p>
-
+            <p>Conheça a nossa unidade e agende uma consulta!</p>
             <a
               data-aos="fade-up"
               href="https://wa.me/5534996472326?text=Olá, vim pelo site e gostaria de mais informações"

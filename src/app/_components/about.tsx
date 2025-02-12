@@ -49,7 +49,7 @@ export function About() {
             <ul className="space-y-4">
               <li className="flex items-center gap-2" data-aos="fade-right">
                 <Check className="text-[#33833a]" />
-                Atendimento humanizado e personalizado
+                Atendimento humanizado e personalizado.
               </li>
               <li className="flex items-center gap-2" data-aos="fade-left">
                 <Check className="text-[#33833a]" />
