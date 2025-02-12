@@ -11,7 +11,7 @@ export function Navigator() {
             <Image
               src={vetMaisLogo}
               alt="Logo Vet Mais"
-              className="h-20 w-32 ml-40"
+              className="h-20 w-32 ml-20"
             />
           </a>
         </div>

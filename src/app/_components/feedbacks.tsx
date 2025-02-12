@@ -73,7 +73,7 @@ export function Feedbacks() {
     return () => clearInterval(interval); // Limpa o intervalo ao desmontar
   }, [emblaApi]);
   return (
-    <section className="bg-[#FDF6EC] py-16">
+    <section className="bg-[#FDF6EC] py-16 overflow-hidden">
       <div className="container mx-auto px-4">
         <h2
           className="text-4xl font-bold text-center mb-12 "

@@ -8,7 +8,10 @@ export function Address() {
     googleMapsApiKey: "AIzaSyClY-0N4W6cn47dLnhip2aUJwtrcyyoKNI",
   });
   return (
-    <div id="endereco" className="container mx-auto px-4 h-96 mt-24 mb-36">
+    <div
+      id="endereco"
+      className="container mx-auto px-4 h-96 mt-24 mb-36 overflow-hidden"
+    >
       <h1 className="text-3xl pb-3 font-bold " data-aos="fade-left">
         Nossa localização
       </h1>
