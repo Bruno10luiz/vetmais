@@ -25,13 +25,13 @@ export function Hero() {
               className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10"
               data-aos="fade-down"
             >
-              {"Bem-vindo(a) à Vet + "}
+              {"Bem-vindo(a) a Vet + "}
             </h1>
             <h1
               className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10"
               data-aos="fade-down"
             >
-              Para nós além de um um paciente, é o Amor de alguém.
+              Para nós, além de um paciente, é o Amor de alguém
             </h1>
 
             <p className="lg:text-lg" data-aos="fade-down">
