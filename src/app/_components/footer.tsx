@@ -22,9 +22,12 @@ export function Footer() {
                 className="h-28 w-28"
               />
             </a>
-            <p className="mb-4">
+            <p className="mb-4 font-bold">
               Cuidando do seu melhor amigo com amor e dedicação.
             </p>
+            <p className="mb-3">Segunda à sexta 08:00h às 19:00h</p>
+            <p className="mb-3">Sábado 08:00 às 12:00h</p>
+
             <a
               href="https://wa.me/5534996472326?text=Olá, vim pelo site e gostaria de mais informações."
               target="_blank"
@@ -39,6 +42,7 @@ export function Footer() {
             <p>Email: vetmaisudi@gmail.com</p>
             <p>Telefone: (34) 9 9647-2326</p>
             <p>Rua Rafael Marino Neto, Jardim Karaíba, 725 - Uberlândia | MG</p>
+            p
           </div>
 
           <div>
