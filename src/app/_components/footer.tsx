@@ -41,8 +41,7 @@ export function Footer() {
             <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
             <p>Email: vetmaisudi@gmail.com</p>
             <p>Telefone: (34) 9 9647-2326</p>
-            <p>Rua Rafael Marino Neto, Jardim Karaíba, 725 - Uberlândia | MG</p>
-            p
+            <p>Rua Rafael Marino Neto, Jardim Karaíba, 725 - Uberlândia|MG</p>
           </div>
 
           <div>
