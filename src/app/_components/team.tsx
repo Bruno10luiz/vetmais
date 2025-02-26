@@ -8,6 +8,7 @@ import Nixon from "../../../public/Nixon.jpeg";
 import Luciana from "../../../public/Luciana.jpeg";
 import Aline from "../../../public/Aline.jpeg";
 import Image from "next/image";
+import React from "react";
 
 const feedbacks = [
   {
