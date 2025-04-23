@@ -7,6 +7,7 @@ import { Team } from "./_components/team";
 import { Address } from "./_components/address";
 import { Navigator } from "./_components/navigator";
 import React from "react";
+import HealthPlansSection from "./_components/healthPlans";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Navigator />
       <Hero />
       <About />
+      <HealthPlansSection />
       <Services />
       <Team />
       <Feedbacks />
