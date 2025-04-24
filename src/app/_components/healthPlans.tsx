@@ -24,7 +24,7 @@ const healthPlans = [
       },
       {
         icon: <Syringe className="w-9 h-9 text-green-600" />,
-        text: "Vacinas: 2 Dhppi e 1 contra Raiva (cães), 2 V4 e 1  contra a raiva (gatos) / Polivante anual e Anti-Rábica anual (ambos)",
+        text: "Vacinas: 2 Polivalentes e 1 Anti-Rábica anual ",
       },
       {
         icon: <Microscope className="w-5 h-5 text-green-600" />,
@@ -51,7 +51,7 @@ const healthPlans = [
       },
       {
         icon: <Syringe className="w-9 h-9 text-green-600" />,
-        text: "Vacinas: 2 Dhppi e 1 contra Raiva (cães); 2 V4 e 1 contra Raiva (gatos) / Polivante anual e Anti-Rábica anual (ambos)",
+        text: "Vacinas: 1 Polivante anual e 1 Anti-Rábica anual",
       },
       {
         icon: <Microscope className="w-5 h-5 text-green-600" />,
@@ -79,7 +79,7 @@ const healthPlans = [
       },
       {
         icon: <Syringe className="w-9 h-9 text-green-600" />,
-        text: "Vacinas: 1 Múltipla e 1 contra Raiva (cães); 1 V4 e 1 contra Raiva (gatos) / Polivante anual e Anti-Rábica anual (ambos)",
+        text: "Vacinas: 1 Polivante anual e 1 Anti-Rábica anual",
       },
       {
         icon: <Microscope className="w-5 h-5 text-green-600" />,
@@ -110,7 +110,7 @@ const healthPlans = [
       },
       {
         icon: <Syringe className="w-9 h-9 text-green-600" />,
-        text: "Vacinas: 1 Múltipla e 1 contra Raiva(cães); 1 V4 e 1 contra Raiva / Polivante anual e Anti-Rábica anual (ambos)",
+        text: "Vacinas: 1 Polivante anual e 1 Anti-Rábica anual",
       },
       {
         icon: <Hospital className="w-5 h-5 text-green-600" />,
@@ -145,7 +145,7 @@ const healthPlans = [
       },
       {
         icon: <Syringe className="w-8 h-8 text-green-600" />,
-        text: "Vacinas: 1 Múltipla e 1 contra Raiva (cães); 1 V4 e 1 contra Raiva / Polivante anual e Anti-Rábica anual (ambos)",
+        text: "Vacinas: 1 Polivante anual e 1 Anti-Rábica anual",
       },
       {
         icon: <Hospital className="w-5 h-5 text-green-600" />,
@@ -177,15 +177,15 @@ const healthPlans = [
   },
   {
     name: "Adicional gastroenterologia*",
-    description: "Pode ser adicionado em qual plano de saúde",
+    description: "Pode ser adicionado em qualquer plano de saúde",
     coverages: [
       {
         icon: <Microscope className="w-5 h-5 text-green-600" />,
-        text: "Consultas: 2 Consultas especializadas em gastroenterologia",
+        text: "2 Consultas especializadas em gastroenterologia",
       },
       {
         icon: <FlaskConical className="w-5 h-5 text-green-600" />,
-        text: "Exames laboratoriais: 2 avalições fecais",
+        text: "Exames laboratoriais: 2 Avalições fecais",
       },
     ],
     linktext:
