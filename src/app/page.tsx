@@ -15,8 +15,8 @@ export default function Home() {
       <Navigator />
       <Hero />
       <About />
-      <HealthPlansSection />
       <Services />
+      <HealthPlansSection />
       <Team />
       <Feedbacks />
       <Address />
