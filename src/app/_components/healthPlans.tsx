@@ -176,7 +176,7 @@ const healthPlans = [
       "Olá! Vi pelo site sobre o Plano Diamante e gostaria de saber mais!",
   },
   {
-    name: "Adicional Gastroentelogia*",
+    name: "Adicional gastroenterologia*",
     description: "Pode ser adicionado em qual plano de saúde",
     coverages: [
       {
@@ -195,10 +195,13 @@ const healthPlans = [
 
 export default function HealthPlansSection() {
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-gray-50" data-aos="fade-right">
       <div className="max-w-7xl mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-10">
           Nossos Planos de Saúde Pet
+        </h2>
+        <h2 className="text-3xl font-bold text-red-500 mb-10">
+          <b>PLANOS A PARTIR DE R$41,50!</b>
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {healthPlans.map((plan, index) => (
@@ -206,31 +209,52 @@ export default function HealthPlansSection() {
               key={index}
               className="bg-white shadow-xl rounded-2xl p-6 hover:shadow-2xl transition duration-300 items-center"
             >
-              <h3 className="text-xl font-semibold text-green-700 mb-2">
+              <h3
+                className="text-xl font-semibold text-green-700 mb-2"
+                data-aos="fade-left"
+              >
                 {plan.name}
               </h3>
-              <p className="text-gray-600 mb-4">{plan.description}</p>
-              <ul className="text-left text-sm text-gray-600 mb-4 space-y-2">
+              <p className="text-gray-600 mb-4" data-aos="fade-left">
+                {plan.description}
+              </p>
+              <ul
+                className="text-left text-sm text-gray-600 mb-4 space-y-2"
+                data-aos="fade-left"
+              >
                 {plan.coverages.map((item, i) => (
-                  <li key={i} className="flex items-start gap-2">
+                  <li
+                    key={i}
+                    className="flex items-start gap-2"
+                    data-aos="fade-left"
+                  >
                     {item.icon}
                     <span>{item.text}</span>
                   </li>
                 ))}
               </ul>
-              <div className=" border-gray-700 pt-4 flex items-center justify-center">
+              <div
+                className=" border-gray-700 pt-4 flex items-center justify-center "
+                data-aos="fade-left"
+              >
                 <a
                   target="_blank"
                   href={`https://wa.me/5534996472326?text=Olá, vim pelo site e gostaria de mais informações sobre ${plan.name}.`}
                   className="flex items-center justify-center gap-2 hover:bg-green-500 px-4 py-1 rounded-md duration-300 bg-green-400 text-white"
                 >
-                  <WhatsappLogo className="w-5 h-5" />
+                  <WhatsappLogo className="w-5 h-5" data-aos="fade-left" />
                   Entrar em contato
                 </a>
               </div>
             </div>
           ))}
         </div>
+        <h3
+          className="text-3xl mt-4 font-bold text-red-500 mb-10"
+          data-aos="fade-left"
+        >
+          <b>OFERTAS POR TEMPO LIMITADO!</b>
+        </h3>
       </div>
     </section>
   );
