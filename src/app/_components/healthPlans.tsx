@@ -23,7 +23,7 @@ const healthPlans = [
         text: "2 consultas pediátricas",
       },
       {
-        icon: <Syringe className="w-9 h-9 text-green-600" />,
+        icon: <Syringe className="w-5 h-5 text-green-600" />,
         text: "Vacinas: 2 Polivalentes e 1 Anti-Rábica anual ",
       },
       {
@@ -50,7 +50,7 @@ const healthPlans = [
         text: "2 Consultas gerais",
       },
       {
-        icon: <Syringe className="w-9 h-9 text-green-600" />,
+        icon: <Syringe className="w-5 h-5 text-green-600" />,
         text: "Vacinas: 1 Polivante anual e 1 Anti-Rábica anual",
       },
       {
@@ -78,7 +78,7 @@ const healthPlans = [
         text: "3 consultas gerais",
       },
       {
-        icon: <Syringe className="w-9 h-9 text-green-600" />,
+        icon: <Syringe className="w-5 h-5 text-green-600" />,
         text: "Vacinas: 1 Polivante anual e 1 Anti-Rábica anual",
       },
       {
@@ -109,7 +109,7 @@ const healthPlans = [
         text: "3 Consultas gerais",
       },
       {
-        icon: <Syringe className="w-9 h-9 text-green-600" />,
+        icon: <Syringe className="w-5 h-5 text-green-600" />,
         text: "Vacinas: 1 Polivante anual e 1 Anti-Rábica anual",
       },
       {
@@ -144,7 +144,7 @@ const healthPlans = [
         text: "Consultas ilimitadas (geral e especializadas)",
       },
       {
-        icon: <Syringe className="w-8 h-8 text-green-600" />,
+        icon: <Syringe className="w-5 h-5 text-green-600" />,
         text: "Vacinas: 1 Polivante anual e 1 Anti-Rábica anual",
       },
       {
