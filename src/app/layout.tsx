@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { AosInit } from "./_components/aos-init";
+//import { AosInit } from "./_components/aos-init";
 import React from "react";
 
 const geistSans = Geist({
@@ -46,7 +46,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           width="0"
         ></iframe>
         {children}
-        <AosInit />
+
       </body>
     </html>
   );
