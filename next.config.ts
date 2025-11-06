@@ -1,12 +1,12 @@
-import Critters from "critters-webpack-plugin";
+import type { NextConfig } from 'next';
 
-const nextConfig = {
-  webpack: (config: { plugins: any[]; }) => {
-    config.plugins.push(new Critters({
-      preload: 'swap',
-      compress: true,
-    }));
-    return config;
+const nextConfig: NextConfig = {
+  reactStrictMode: true,
+  images: {
+    domains: ['res.cloudinary.com'], // ajuste se usar imagens externas
+  },
+  experimental: {
+    optimizeCss: true,
   },
 };
 
