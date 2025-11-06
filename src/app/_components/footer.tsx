@@ -1,10 +1,9 @@
-import vetMaisLogo from "../../../public/Logo VET+branco.png";
+import vetMaisLogo from "../../../public/Logo-VET-branco.webp";
 import Image from "next/image";
 import {
-  FacebookLogo,
   InstagramLogo,
   WhatsappLogo,
-  YoutubeLogo,
+
 } from "@phosphor-icons/react/dist/ssr";
 
 export function Footer() {

@@ -1,17 +1,15 @@
 import Image from "next/image";
-import vetMaisLogo from "../../../public/logovetverde (2).png";
+import vetMaisLogo from "../../../public/logovetverde-_2_.webp";
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 
 export function Navigator() {
   return (
     <div className="bg-white overflow-hidden sticky top-0 z-50 w-full">
       <div className="flex items-center justify-between px-6 md:px-20 py-4 relative">
-        {/* Logo no canto superior esquerdo */}
         <a href="/" className="flex-shrink-0">
           <Image src={vetMaisLogo} alt="Logo Vet Mais" className="h-16 w-32" />
         </a>
 
-        {/* Botão de WhatsApp - visível apenas abaixo de 768px */}
         <a
           href="https://wa.me/5534996472326?text=Olá, vim pelo site e gostaria de mais informações"
           target="_blank"
@@ -21,7 +19,6 @@ export function Navigator() {
           <WhatsappLogo className="w-5 h-5 text-white" />
         </a>
 
-        {/* Navegação - oculta em telas menores que 768px */}
         <div className="hidden md:flex items-center gap-8">
           <ul className="flex gap-6">
             <li className="text-xl hover:text-green-700">
@@ -35,7 +32,6 @@ export function Navigator() {
             </li>
           </ul>
 
-          {/* Botão de WhatsApp - visível apenas acima de 768px */}
           <a
             href="https://wa.me/5534996472326?text=Olá, vim pelo site e gostaria de mais informações"
             target="_blank"

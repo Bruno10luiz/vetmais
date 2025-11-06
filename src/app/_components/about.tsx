@@ -1,6 +1,6 @@
 import Image from "next/image";
-import about1Img from "../../../public/fachada-vet.jpg";
-import about2Img from "../../../public/agendar-consulta.png";
+import about1Img from "../../../public/fachada-vet.webp";
+import about2Img from "../../../public/agendar-consulta.webp";
 import { Check, MapPin } from "lucide-react";
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 

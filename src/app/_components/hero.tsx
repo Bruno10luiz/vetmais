@@ -4,8 +4,8 @@ import {
   Siren
 
 } from "lucide-react";
-import catdogImg from "../../../public/catdog-home.png";
-import catImg from "../../../public/hero-dog.webp";
+import catdogImg from "../../../public/catdog-home.webp";
+import catImg from "../../../public/bg-hero.webp";
 import Image from "next/image";
 
 export function Hero() {

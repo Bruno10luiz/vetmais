@@ -6,7 +6,7 @@ export function Address() {
   return (
     <div
       id="endereco"
-      className="container max-w-full px-4 py-8 overflow-hidden bg-[#90d698]"
+      className="w-full py-12 px-6 flex flex-col items-center text-center bg-[#90d698]"
     >
       <h1 className="text-3xl pb-3 font-bold " data-aos="fade-left">
         Nossa localização

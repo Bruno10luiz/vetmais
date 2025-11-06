@@ -3,10 +3,8 @@
 import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Check } from "lucide-react";
-import Sthefany from "../../../public/Sthefany.jpeg";
-import Nixon from "../../../public/Nixon.jpeg";
-import Luciana from "../../../public/Luciana.jpeg";
-import Aline from "../../../public/Aline.jpeg";
+import Sthefany from "../../../public/Sthefany.webp";
+import Aline from "../../../public/Aline.webp";
 import Image from "next/image";
 import React from "react";
 
@@ -19,22 +17,7 @@ const feedbacks = [
     tech4: "Pós graduanda neonatologia",
     image: Sthefany,
   },
-  /* {
-     vet: "Dr. Nixon Faria",
-     tech1: "Médico Veterinário graduado pela UFU em 1992",
-     tech2: "Radiologista, Patologista Clínico",
-     tech3: "Endoscopista",
-     tech4: "Pós graduado em Gastroenterologia de pequenos animais",
-     image: Nixon,
-   },
-  {
-     vet: "Dra. Luciana Benedetti",
-     tech1: "Médica Veterinária graduada pela UFU em 2000",
-     tech2: "Especialista em Ultrassonografia Abdominal",
-     tech3: "Especialista em  Exames Cardiológicos",
-     tech4: "Mestrado e Doutorado em Genética Molecular e Bioquímica",
-     image: Luciana,
-   },*/
+
   {
     vet: "Dra. Aline Vieira",
     tech1: "Médica Veterinária graduada na UFU em 2020",
