@@ -8,7 +8,7 @@ import { Navigator } from "./_components/navigator";
 import { Contact } from "./_components/contact"
 import React from "react";
 
-export default function Home({ data }: { data: string }) {
+export default function Home() {
   return (
     <main>
       <Navigator />
@@ -19,7 +19,6 @@ export default function Home({ data }: { data: string }) {
       <Address />
       <Contact />
       <Footer />
-      <p>dados carregado : {data}</p>
     </main>
   );
 }
