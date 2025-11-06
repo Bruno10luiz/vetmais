@@ -1,4 +1,9 @@
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
+import {
+  Phone,
+  Siren
+
+} from "lucide-react";
 import catdogImg from "../../../public/catdog-home.png";
 import catImg from "../../../public/hero-dog.webp";
 import Image from "next/image";
@@ -18,35 +23,55 @@ export function Hero() {
         <div className="absolute inset-0 bg-black opacity-40 md:hidden"></div>
       </div>
 
-      <div className="container mx-auto pt-16 pb-16 md:pb-0 px-4 relative">
-        <article className="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
+      <div className="container  mx-auto pt-16 pb-16 md:pb-0 px-4 relative ">
+        <article className="grid grid-cols-1 lg:grid-cols-2 gap-9 ">
           <div className="space-y-6">
             <h1
               className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10"
               data-aos="fade-down"
             >
-              {"Bem-vindo(a) a Vet + "}
-            </h1>
-            <h1
-              className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10"
-              data-aos="fade-down"
-            >
-              Para nós, além de um paciente, é o Amor de alguém
+              Clínica Veterinária em Uberlândia
+
             </h1>
 
             <p className="lg:text-lg" data-aos="fade-down">
-              A Vet+ oferece os melhores serviços para garantir o bem-estar e a
-              saúde do seu amigo de quatro patas!
+              Atendimento Personalizado e de Qualidade
             </p>
-            <p>Conheça a nossa unidade e agende uma consulta!</p>
-            <a
-              data-aos="fade-up"
-              href="https://wa.me/5534996472326?text=Olá, vim pelo site e gostaria de mais informações"
-              target="_blank"
-              className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
-            >
-              <WhatsappLogo className="w-5 h-5" />
-              Contato via Whatsapp
+            <p className="lg:text-lg" data-aos="fade-down">Consultas • Cirurgias • Internação • Exames • Castrações • Raio X • Ultrassom
+            </p>
+            <div className="grid grid-cols-1 gap-4 w-full max-w-sm">
+              <a
+                data-aos="fade-up"
+                href="tel:+5534996472326"
+                target="_blank"
+                className="bg-white text-green-500 border-black px-6 py-3 rounded-xl font-semibold flex items-center justify-center gap-3 shadow-md hover:bg-green-100 hover:scale-[1.02] transition-all duration-300"
+              >
+                <Phone className="w-5 h-5" />
+                LIGAR AGORA
+              </a>
+
+              <a
+                data-aos="fade-up"
+                href="https://wa.me/5534996472326?text=Olá, vim pelo site e gostaria de mais informações"
+                target="_blank"
+                className="bg-green-500 text-white px-6 py-3 rounded-xl font-semibold flex items-center justify-center gap-3 shadow-md hover:bg-green-600 hover:scale-[1.02] transition-all duration-300"
+              >
+                <WhatsappLogo className="w-5 h-5" />
+                FALAR NO WHATSAPP
+              </a>
+
+              <a
+                data-aos="fade-up"
+                href="https://wa.me/5534996472326?text=Olá, vim pelo site, estou com uma emergência. "
+                target="_blank"
+                className="bg-red-500 text-white px-6 py-3 rounded-xl font-semibold flex items-center justify-center gap-3 shadow-md hover:bg-red-600 hover:scale-[1.02] transition-all duration-300"
+              >
+                <Siren className="w-5 h-5" />
+                EMERGÊNCIA
+              </a>
+            </div>
+            <a href="https://maps.app.goo.gl/56ysj3ahtctaD3Df6" target="_blank">
+              <h4 className="mt-5">Rua Rafael Marino Neto, 725, Uberlândia, Minas Gerais</h4>
             </a>
 
             <div className="mt-8">
@@ -74,6 +99,7 @@ export function Hero() {
               priority
             />
           </div>
+
         </article>
       </div>
     </section>

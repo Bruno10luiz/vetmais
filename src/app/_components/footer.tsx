@@ -41,7 +41,9 @@ export function Footer() {
             <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
             <p>Email: vetmaisudi@gmail.com</p>
             <p>Telefone: (34) 9 9647-2326</p>
-            <p>Rua Rafael Marino Neto, Jardim Karaíba, 725 - Uberlândia|MG</p>
+            <p>Rua Rafael Marino Neto, Jardim Karaíba, 725 - Uberlândia | MG</p>
+            <p className="border-t border-white/20 pt-4"> Aline Vieira Fernandes Ferreira - CRMV 23171/MG</p>
+            <p className="pt-2">Sthefany Lara Sousa - CRMV 23257/MG </p>
           </div>
 
           <div>

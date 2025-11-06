@@ -19,22 +19,22 @@ const feedbacks = [
     tech4: "Pós graduanda neonatologia",
     image: Sthefany,
   },
+  /* {
+     vet: "Dr. Nixon Faria",
+     tech1: "Médico Veterinário graduado pela UFU em 1992",
+     tech2: "Radiologista, Patologista Clínico",
+     tech3: "Endoscopista",
+     tech4: "Pós graduado em Gastroenterologia de pequenos animais",
+     image: Nixon,
+   },
   {
-    vet: "Dr. Nixon Faria",
-    tech1: "Médico Veterinário graduado pela UFU em 1992",
-    tech2: "Radiologista, Patologista Clínico",
-    tech3: "Endoscopista",
-    tech4: "Pós graduado em Gastroenterologia de pequenos animais",
-    image: Nixon,
-  },
-  {
-    vet: "Dra. Luciana Benedetti",
-    tech1: "Médica Veterinária graduada pela UFU em 2000",
-    tech2: "Especialista em Ultrassonografia Abdominal",
-    tech3: "Especialista em  Exames Cardiológicos",
-    tech4: "Mestrado e Doutorado em Genética Molecular e Bioquímica",
-    image: Luciana,
-  },
+     vet: "Dra. Luciana Benedetti",
+     tech1: "Médica Veterinária graduada pela UFU em 2000",
+     tech2: "Especialista em Ultrassonografia Abdominal",
+     tech3: "Especialista em  Exames Cardiológicos",
+     tech4: "Mestrado e Doutorado em Genética Molecular e Bioquímica",
+     image: Luciana,
+   },*/
   {
     vet: "Dra. Aline Vieira",
     tech1: "Médica Veterinária graduada na UFU em 2020",
@@ -80,7 +80,7 @@ export function Team() {
                   className="flex-[0_0_100%] md:h-96 min-w-0 px-3"
                 >
                   <article className="bg-[#90d698] text-white rounded-2xl h-full flex flex-col md:flex-row gap-7 p-6 md:h-72  text-center">
-                    <div className="h-48 w-48 md:w-[40%] md:h-50 md:w-40 md:h-full rounded-2xl flex justify-center items-center mx-auto md:mx-0">
+                    <div className="h-48 w-48 md:h-50 md:w-40 md:h-full rounded-2xl flex justify-center items-center mx-auto md:mx-0">
                       <Image
                         src={item.image}
                         alt={item.vet}

@@ -9,7 +9,6 @@ import {
   Syringe,
   Ambulance,
   Hospital,
-  Pill,
   Microscope,
 } from "lucide-react";
 import { WhatsappLogo } from "@phosphor-icons/react";
