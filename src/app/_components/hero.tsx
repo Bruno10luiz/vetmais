@@ -17,6 +17,9 @@ export function Hero() {
           alt="Foto cachorro e gato"
           fill
           sizes="100vw"
+          fetchPriority="high"
+          loading="eager"
+          decoding="sync"
           priority
           className="object-cover opacity-60 lg:hidden"
         />
