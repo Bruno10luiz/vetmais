@@ -28,7 +28,7 @@ export function Footer() {
             <p className="mb-3">Sábado 08:00 às 12:00h</p>
 
             <a
-              href="https://wa.me/5534996472326?text=Olá, vim pelo site e gostaria de mais informações."
+              href="https://wa.me/5534996310107?text=Olá, vim pelo site e gostaria de mais informações."
               target="_blank"
               className="bg-green-500 px-4 py-2 rounded-md"
             >
@@ -39,7 +39,7 @@ export function Footer() {
           <div>
             <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
             <p>Email: vetmaisudi@gmail.com</p>
-            <p>Telefone: (34) 9 9647-2326</p>
+            <p>Telefone: (34) 9 9631-0107</p>
             <p>Rua Rafael Marino Neto, Jardim Karaíba, 725 - Uberlândia | MG</p>
             <p className="border-t border-white/20 pt-4"> R.T. M.V. Aline Vieira Fernandes Ferreira - CRMV 23171/MG</p>
             <p className="pt-2">Sthefany Lara Sousa - CRMV 23257/MG </p>
@@ -52,7 +52,7 @@ export function Footer() {
                 <InstagramLogo className="w-8 h-8" />
               </a>
               <a
-                href="https://wa.me/5534996472326?text=Olá, vim pelo site e gostaria de mais informações."
+                href="https://wa.me/5534996310107?text=Olá, vim pelo site e gostaria de mais informações."
                 target="_blank"
               >
                 <WhatsappLogo className="w-8 h-8" />

@@ -22,14 +22,14 @@ export function Contact() {
                     className="flex flex-col items-center gap-2"
                 >
                     <a
-                        href="tel:+5534996472326"
+                        href="tel:+5534996310107"
                         className="bg-green-500 text-white px-6 py-3 rounded-xl font-semibold flex items-center justify-center gap-3 shadow-md hover:bg-green-600 hover:scale-[1.02] transition-all duration-300 w-full"
                     >
                         <Phone className="w-5 h-5" height="bold" />
                         LIGAR AGORA
                     </a>
                     <span className="text-gray-700 font-bold select-all">
-                        (34) 99647-2326
+                        (34) 99631-0107
                     </span>
                 </div>
                 <div
@@ -37,7 +37,7 @@ export function Contact() {
                     className="flex flex-col items-center gap-2"
                 >
                     <a
-                        href="https://wa.me/5534996472326?text=Olá, vim pelo site e gostaria de mais informações."
+                        href="https://wa.me/5534996310107?text=Olá, vim pelo site e gostaria de mais informações."
                         target="_blank"
                         className="bg-green-500 text-white px-6 py-3 rounded-xl font-semibold flex items-center justify-center gap-3 shadow-md hover:bg-green-600 hover:scale-[1.02] transition-all duration-300 w-full"
                     >
@@ -45,7 +45,7 @@ export function Contact() {
                         FALAR NO WHATSAPP
                     </a>
                     <span className="text-gray-700 font-bold select-all">
-                        (34) 99647-2326
+                        (34) 99631-0107
                     </span>
                 </div>
             </div>

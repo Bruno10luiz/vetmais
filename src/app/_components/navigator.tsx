@@ -11,7 +11,7 @@ export function Navigator() {
         </a>
 
         <a
-          href="https://wa.me/5534996472326?text=Olá, vim pelo site e gostaria de mais informações"
+          href="https://wa.me/5534996310107?text=Olá, vim pelo site e gostaria de mais informações"
           target="_blank"
           className="bg-[#3de85a] text-white flex items-center gap-2 px-3 py-2 rounded-md md:hidden absolute right-6"
         >
@@ -33,7 +33,7 @@ export function Navigator() {
           </ul>
 
           <a
-            href="https://wa.me/5534996472326?text=Olá, vim pelo site e gostaria de mais informações"
+            href="https://wa.me/5534996310107?text=Olá, vim pelo site e gostaria de mais informações"
             target="_blank"
             className="bg-[#3de85a] text-white flex items-center gap-2 px-4 py-2 rounded-md"
           >

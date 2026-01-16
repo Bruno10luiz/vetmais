@@ -55,7 +55,7 @@ export function Hero() {
 
               <a
                 data-aos="fade-up"
-                href="https://wa.me/5534996472326?text=Olá, vim pelo site e gostaria de mais informações"
+                href="https://wa.me/5534996310107?text=Olá, vim pelo site e gostaria de mais informações"
                 target="_blank"
                 className="bg-green-500 text-white px-6 py-3 rounded-xl font-semibold flex items-center justify-center gap-3 shadow-md hover:bg-green-600 hover:scale-[1.02] transition-all duration-300"
               >
@@ -65,7 +65,7 @@ export function Hero() {
 
               <a
                 data-aos="fade-up"
-                href="https://wa.me/5534996472326?text=Olá, vim pelo site, estou com uma emergência. "
+                href="https://wa.me/5534996310107?text=Olá, vim pelo site, estou com uma emergência. "
                 target="_blank"
                 className="bg-red-500 text-white px-6 py-3 rounded-xl font-semibold flex items-center justify-center gap-3 shadow-md hover:bg-red-600 hover:scale-[1.02] transition-all duration-300"
               >
